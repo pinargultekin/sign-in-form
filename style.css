@@ -14,7 +14,7 @@
       font-size: 20px;
     --color-primary: #4c2982;
     --color-secondary: #f9d170;
-    --color-bg: #f9f7f3;
+    --color-bg: #f6f3f9;
     --color-text: #252525;
     --color-light: #f3f3f3;
     --color-success: #067973;
@@ -27,7 +27,7 @@ body{
     font-family: 'Inter';
 }
 main{
-    background-color: aliceblue;
+    background-color: var(--color-bg);
     height:22.6rem;
     width:34.2rem;
     text-align: center;
@@ -81,10 +81,12 @@ h6{
 .success-icon{
     background-image: url(./images/check.svg);
     filter: invert(26%) sepia(54%) saturate(3003%) hue-rotate(158deg) brightness(89%) contrast(95%);}
-
+#label-head{
+    font-size: .7rem;
+    font-weight: 700;
+}
 input{
     border:none;
-    background-color: transparent;
     width:95.9%;
     height: 100%;
     box-shadow: 0px 5px 5px 0px #d4d4d417;
@@ -99,7 +101,7 @@ input:focus{
 }
 .input-group{
     display:flex;
-    margin-top:1rem;
+    margin-top:.3rem;
     align-content: center;
 }
 .input-text{
