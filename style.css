@@ -49,13 +49,8 @@ h2{
     font-weight: 900;
     margin:1rem;
 }
-button{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: var(--color-secondary);
-    border:none;
-}
 .icon{
+    margin:5px auto;
     display: inline-block;
     width: 1rem;
     height: 1rem;
@@ -83,7 +78,14 @@ input:focus, button:focus{
 .input-group{
     display:flex;
     margin-top:1rem;
+    align-content: center;
 }
-.input-gr{
-flex: 1 1 auto;
+.input-text{
+flex-grow: 5;
+}
+.append-icon{
+    flex-grow: 1;
+    background-color: var(--color-secondary);
+    text-align: center;
+    padding-top:2px;
 }
