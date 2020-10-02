@@ -124,8 +124,8 @@ flex-grow: 5;
     color:var(--color-error)
 }
 .success{
-    width:14.5rem;
-    height: 3rem;
+    width:12.5rem;
+    height: 3.5rem;
     display:flex;
     margin-top:1rem;
     background-color: var(--color-success-bg);
