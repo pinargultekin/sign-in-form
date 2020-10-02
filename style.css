@@ -28,22 +28,26 @@ body{
 }
 main{
     background-color: aliceblue;
-    height:13rem;
-    width:20rem;
+    height:22.6rem;
+    width:34.2rem;
     text-align: center;
     vertical-align: middle;
-    margin: 30vh auto;
-    border-radius:1rem;
+    margin:20vh auto;
+    position:relative;
 }
 .signup{
-    width:17rem;
-    height:15rem;
-    vertical-align: middle;
+    height:11.3rem;
+    width:17.1rem;
+    margin: 0;
     text-align: left;
     padding: 10px;
     font-weight: 900;
     font-style: normal;
     color: var(--color-primary);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 h2{
     font-weight: 900;
