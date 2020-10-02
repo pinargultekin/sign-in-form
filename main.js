@@ -7,8 +7,10 @@ $(document).ready(function(){
 
     $("#append-icon").click(function(){
         $("#warning").css("display", "flex");
+        $(".signup").css("height", "16.3rem");
         $("#input-text").css("border", "1px solid #4c2982");
         $("#email").attr("placeholder", "Invalid email input");
+        
     });
 
 })

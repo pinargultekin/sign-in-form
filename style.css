@@ -81,9 +81,10 @@ h6{
 input{
     border:none;
     background-color: transparent;
-    width:99.7%;
+    width:95.9%;
     height: 100%;
     box-shadow: 0px 5px 5px 0px #d4d4d417;
+    padding-left:.5rem;
 }
 input:focus{
     outline:  1px solid var(--color-primary);
