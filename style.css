@@ -1,3 +1,89 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-Black.woff2?v=3.11") format("woff2"),
+         url("Inter-Black.woff?v=3.11") format("woff");
+  }
+  *, *::before, *::after{
+      margin:0;
+      padding:0;
+  }
+  :root {
+      font-size: 20px;
+    --color-primary: #4c2982;
+    --color-secondary: #f9d170;
+    --color-bg: #f9f7f3;
+    --color-text: #252525;
+    --color-light: #f3f3f3;
+    --color-success: #067973;
+    --color-success-bg: #f5fffe;
+    --color-error: #b71540;
+    --color-error-bg: #fdeff3;
+  }
 body{
     background-color: rgb(30, 31, 34);
+    font-family: 'Inter';
+}
+main{
+    background-color: aliceblue;
+    height:13rem;
+    width:20rem;
+    text-align: center;
+    vertical-align: middle;
+    margin: 30vh auto;
+    border-radius:1rem;
+}
+.signup{
+    width:17rem;
+    height:15rem;
+    vertical-align: middle;
+    text-align: left;
+    padding: 10px;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--color-primary);
+}
+h2{
+    font-weight: 900;
+    margin:1rem;
+}
+button{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--color-secondary);
+    border:none;
+}
+.icon{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: cover;
+    
+}
+.arrow-icon{
+   background-image: url(./images/arrow-right.svg); 
+   filter: invert(19%) sepia(34%) saturate(3404%) hue-rotate(245deg) brightness(87%) contrast(97%);
+}
+input{
+    border:none;
+    background-color: transparent;
+    width:99.7%;
+    height: 100%;
+    box-shadow: 0px 5px 5px 0px #d4d4d417;
+}
+input:focus, button:focus{
+    outline:  1px solid var(--color-primary);
+    border-radius: 0px;
+}
+.form{
+    margin:1rem;
+}
+.input-group{
+    display:flex;
+    margin-top:1rem;
+}
+.input-gr{
+flex: 1 1 auto;
 }
